@@ -1,0 +1,19 @@
+.rewards__image{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.rewards__image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.rewards__desc{
+    max-width: 900px;
+    min-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10px;
+}
+.rewards{
+    padding-bottom: 80px;
+}

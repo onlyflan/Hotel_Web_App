@@ -1,0 +1,73 @@
+.collapseBG{
+    position: relative;
+    padding: 100px 0px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/images/bg4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    background-size: cover;
+    overflow: hidden;
+}
+.collapseBG::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+}
+.collapseBG{
+    background-image: url(../../assets/images/bg1.webp);
+}
+.collapseBG{
+    background-image: url(../../assets/images/bg2.webp);
+}
+.collapseBG{
+    background-image: url(../../assets/images/bg3.webp);
+}
+.collapse__title{
+    z-index: 1;
+    color: #fff;
+    font-size: 40px;
+    padding: 132px 0 65px;
+    transition: all 0.5s;
+}
+.collapse__content{
+    position: relative;
+    border-top: 2px solid #fff;
+    padding: 0px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.3s;
+    overflow: hidden;
+} 
+.collapse__content img{
+   object-fit: cover;
+} 
+.collapse__text{
+    display: none;
+    width: 500px;
+    color: #fff;
+    margin-top: 80px;
+    right: -180px;
+}
+.collapse__text span{
+    font-size: 30px;
+}
+.collapse__text p{
+    font-size: 18px;
+}
+
+.detail-collapse{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.detail-collapse a{
+    color: #fff;
+}

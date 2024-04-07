@@ -1,0 +1,107 @@
+
+/* // 998465 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 20px 0px;
+    margin: 0px;
+}
+    
+a{
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+}
+li{
+    padding: 0 30px;
+}
+.social {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.social svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    color: #879999;
+    cursor: pointer;
+}
+.social svg:hover{
+    color: #fff;
+}
+.footer__brand{
+    background-color: #555555;
+    padding: 20px 0;
+}
+.footer, .footer__rules{
+    background-color: #000;
+    padding: 30px 0;
+    border-bottom: 0.5px solid #879999;
+}
+.footer__Map{
+    display: flex;
+    color: #879999;
+}
+.footer__list{
+    border-right: 0.4px solid #879999;
+}
+.footer__list li{
+    cursor: pointer;
+    margin: 5px 0px;
+}
+.footer__hotelName{
+    display: flex;
+    color: #879999;
+    margin-top: 60px;
+   
+}
+.footer__hotelName p:first-child{
+    font-weight: 600;
+   
+    margin-right: 10px;
+}
+.header__rewards{
+    position: absolute;
+    padding: 8px 20px;
+    background-color: #998465;
+    color: #fff;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: rgba(248, 248, 248, 0.9);
+    position: fixed;
+}
+.header__menu{
+    display: flex;
+    justify-content: center;
+    
+}
+svg{
+    margin-top: -5px;
+    color: #998465;
+    font-weight: bold;
+}
+
+
+.footer__allet span{
+    color: #879999;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 0.4px solid #879999;
+}
+.footer__allet span:nth-child(1){
+    color: #fff; 
+}
