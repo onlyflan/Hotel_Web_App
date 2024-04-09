@@ -10,7 +10,6 @@
 .packages__item{
     padding-right: 50px;
     padding-left: 0px;
-
 }
 
 .packages__item img{
@@ -65,4 +64,17 @@ button span{
     font-size: 24px;
     font-weight: 600;
     color: #fff;
+}
+@media (max-width: 575.98px){
+    .packages__item{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .packages__title{
+        font-size: 40px;
+        color: #998465;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
 }

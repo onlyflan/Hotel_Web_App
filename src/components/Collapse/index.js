@@ -37,13 +37,13 @@ const CollapseHome = () => {
     otherOpacity.forEach(item => {
       item.style = `opacity: 0.4;`
       var otherContent = item.querySelector(`.collapse__text`);
-      otherContent.style = "display: none;"
+      otherContent.style = "opacity: 0;"
     });
 
     var opacity = document.querySelector(`.${type}`)
     opacity.style = ` opacity: 1;`
     var content = opacity.querySelector(`.collapse__text`)
-    content.style = "display: block;"
+    content.style = "opacity: 1; display: block;"
   }
 
   return (
@@ -92,7 +92,7 @@ const CollapseHome = () => {
             </div>
             <div className="collapse__content city col-xxl-3 col-xl-3 col-lg-3 col-md-12" onMouseEnter={() => HandleOnlick(city, 'city')}>
               <img src={city2} />
-              <div className="collapse__text">
+              <div className="collapse__text collapse__end">
                 <span>Life beyond Expectations</span>
                 <p>SIGNIEL cung cấp chất lượng vượt qua sự mong đợi của quý khách. Chúng tôi cung cấp các dịch vụ cá nhân tốt nhất với phong cách sang trọng mà quý khách không thể tìm thấy ở bất kỳ nơi nào khác. Hãy tự thưởng cho mình những đặc quyền lớn nhất của cuộc sống bằng cách lưu trú tại SIGNIEL;</p>
                 <button className="detail">

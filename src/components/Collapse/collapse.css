@@ -43,18 +43,22 @@
     padding: 0px;
     cursor: pointer;
     opacity: 0.4;
-    transition: all 0.3s;
-    overflow: hidden;
+    transition: all 0.8s;
+    margin-bottom: 50px;
 } 
+.collapse__end{
+    text-align: right;
+    margin-left: -170px;
+}
 .collapse__content img{
    object-fit: cover;
 } 
 .collapse__text{
-    display: none;
     width: 500px;
     color: #fff;
     margin-top: 80px;
     right: -180px;
+    opacity: 0;
 }
 .collapse__text span{
     font-size: 30px;
@@ -70,4 +74,36 @@
 
 .detail-collapse a{
     color: #fff;
+}
+@media (max-width: 1198.98px){
+    .collapse__text span{
+        font-size: 24px;
+    }
+    .collapse__text p{
+        font-size: 14px;
+    }
+    .collapse__end{
+        margin-left: -260px;
+    }
+}
+@media (max-width: 991.98px){
+    .collapse__end{
+        margin-left: 0px;
+        text-align: left;
+    }
+    .collapse__text{
+        display: none;
+    }
+
+}
+@media (max-width: 767.98px){
+    
+}
+@media (max-width: 575.98px){
+    .collapse__title{
+        padding: 100px 10px;
+    }
+    .collapse__content{
+        padding: 10px 10px;
+    } 
 }
