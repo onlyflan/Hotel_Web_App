@@ -1,0 +1,66 @@
+[
+    {
+      "ID": 1,
+      "bookingDate": "2024-04-16",
+      "selloff": 0.10,
+      "note": "Ghi chú đặt phòng",
+      "clientID": 1001,
+      "userID": 5001
+    },
+    {
+      "ID": 2,
+      "bookingDate": "2024-04-17",
+      "selloff": 0.15,
+      "note": "Yêu cầu đặc biệt",
+      "clientID": 1002,
+      "userID": 5002
+    },
+    {
+      "ID": 3,
+      "bookingDate": "2024-04-18",
+      "selloff": 0.05,
+      "note": "Đặt phòng cho chuyến du lịch công tác",
+      "clientID": 1003,
+      "userID": 5003
+    },
+    {
+      "ID": 4,
+      "bookingDate": "2024-04-19",
+      "selloff": 0.12,
+      "note": "Đặt phòng nghỉ dưỡng cùng gia đình",
+      "clientID": 1004,
+      "userID": 5004
+    },
+    {
+      "ID": 5,
+      "bookingDate": "2024-04-20",
+      "selloff": 0.08,
+      "note": "Đặt phòng cho kỳ nghỉ dài ngày",
+      "clientID": 1005,
+      "userID": 5005
+    },
+    {
+      "ID": 6,
+      "bookingDate": "2024-04-21",
+      "selloff": 0.07,
+      "note": "Yêu cầu phòng gần biển",
+      "clientID": 1006,
+      "userID": 5006
+    },
+    {
+      "ID": 7,
+      "bookingDate": "2024-04-22",
+      "selloff": 0.10,
+      "note": "Đặt phòng cao cấp",
+      "clientID": 1007,
+      "userID": 5007
+    },
+    {
+      "ID": 8,
+      "bookingDate": "2024-04-23",
+      "selloff": 0.15,
+      "note": "Đặt phòng trong chuyến du lịch cuối tuần",
+      "clientID": 1008,
+      "userID": 5008
+    }
+]
